@@ -8,6 +8,9 @@ flags:
       type: VARIANT_FLAG_TYPE
       description: send email using mail-sender
       enabled: true
+      variants:
+        - key: default
+          attachment: {}
 segments:
     - key: by-tenant-id
       name: by tenant ID
