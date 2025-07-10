@@ -31,7 +31,7 @@ flags:
     - key: member_can_delete_account
       name: member_can_delete_account
       type: VARIANT_FLAG_TYPE
-      enabled: false
+      enabled: true
       variants:
         - key: default
           attachment: {}
