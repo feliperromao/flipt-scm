@@ -28,6 +28,10 @@ flags:
             keys:
                 - by-tenant-id
             operator: OR_SEGMENT_OPERATOR
+    - key: member_can_delete_account
+      name: member_can_delete_account
+      type: VARIANT_FLAG_TYPE
+      enabled: false
 segments:
     - key: by-tenant-id
       name: by tenant ID
