@@ -1,0 +1,10 @@
+version: "1.5"
+namespace:
+    key: default
+    name: Default
+flags:
+    - key: email_v2
+      name: email_v2
+      type: VARIANT_FLAG_TYPE
+      description: send email using mail-sender
+      enabled: true
