@@ -17,7 +17,7 @@ flags:
                 - by-tenant-id
             operator: OR_SEGMENT_OPERATOR
     - key: login_integration
-      name: login_integration
+      name: login_integration_enabled
       type: VARIANT_FLAG_TYPE
       enabled: true
       variants:
