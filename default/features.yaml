@@ -19,7 +19,7 @@ flags:
     - key: login_integration
       name: login_integration_enabled
       type: VARIANT_FLAG_TYPE
-      enabled: false
+      enabled: true
       variants:
         - key: default
           attachment: {}
