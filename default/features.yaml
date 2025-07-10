@@ -8,3 +8,7 @@ flags:
       type: VARIANT_FLAG_TYPE
       description: send email using mail-sender
       enabled: true
+segments:
+    - key: by-tenant-id
+      name: by tenant ID
+      match_type: ALL_MATCH_TYPE
