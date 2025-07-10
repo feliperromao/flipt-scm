@@ -16,19 +16,6 @@ flags:
             keys:
                 - by-tenant-id
             operator: OR_SEGMENT_OPERATOR
-    - key: login_integration
-      name: login_integration_enabled
-      type: VARIANT_FLAG_TYPE
-      enabled: true
-      variants:
-        - default: true
-          key: default
-          attachment: {}
-      rules:
-        - segment:
-            keys:
-                - by-tenant-id
-            operator: OR_SEGMENT_OPERATOR
 segments:
     - key: by-tenant-id
       name: by tenant ID
