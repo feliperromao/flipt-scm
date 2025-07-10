@@ -20,6 +20,9 @@ flags:
       name: login_integration_enabled
       type: VARIANT_FLAG_TYPE
       enabled: true
+      variants:
+        - key: default
+          attachment: {}
 segments:
     - key: by-tenant-id
       name: by tenant ID
