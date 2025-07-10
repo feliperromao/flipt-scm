@@ -20,6 +20,14 @@ flags:
       name: login_integration
       type: VARIANT_FLAG_TYPE
       enabled: true
+      variants:
+        - key: default
+          attachment: {}
+      rules:
+        - segment:
+            keys:
+                - by-tenant-id
+            operator: OR_SEGMENT_OPERATOR
 segments:
     - key: by-tenant-id
       name: by tenant ID
