@@ -21,7 +21,8 @@ flags:
       type: VARIANT_FLAG_TYPE
       enabled: true
       variants:
-        - key: default
+        - default: true
+          key: default
           attachment: {}
       rules:
         - segment:
