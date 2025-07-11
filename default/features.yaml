@@ -54,4 +54,9 @@ segments:
       match_type: ALL_MATCH_TYPE
     - key: member_can_delete_account
       name: member_can_delete_account
+      constraints:
+        - type: STRING_COMPARISON_TYPE
+          property: tenant_id
+          operator: isoneof
+          value: '["9f256c00-24bb-4910-aa3b-ae5e185c778d"]'
       match_type: ALL_MATCH_TYPE
