@@ -35,11 +35,6 @@ flags:
       variants:
         - key: default
           attachment: {}
-      rules:
-        - segment:
-            keys:
-                - member_can_delete_account
-            operator: OR_SEGMENT_OPERATOR
 segments:
     - key: by-tenant-id
       name: by tenant ID
