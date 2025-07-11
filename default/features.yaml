@@ -52,3 +52,6 @@ segments:
     - key: all-clients
       name: all clients
       match_type: ALL_MATCH_TYPE
+    - key: member_can_delete_account
+      name: member_can_delete_account
+      match_type: ALL_MATCH_TYPE
