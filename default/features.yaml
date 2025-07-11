@@ -38,7 +38,7 @@ flags:
       rules:
         - segment:
             keys:
-                - by-tenant-id
+                - member_can_delete_account
             operator: OR_SEGMENT_OPERATOR
 segments:
     - key: by-tenant-id
